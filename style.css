@@ -1,11 +1,7 @@
-
-
-
 .buttons{
     text-align: center; 
     position: fixed;  
 }
-
 
 .blue {
     background-color: white; 
@@ -38,7 +34,7 @@
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
+  }  
 
   .black:hover {
     background-color: #555555;
@@ -81,7 +77,6 @@
     border:2px solid grey;
     -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
-    /* z-index:100000000000000000; */
   }
 
   #popup button {    
@@ -92,7 +87,6 @@ margin-top:120px;
     border-radius: 3px;
     border: 1px solid #aaa;
     padding: 10px;
-    /* text-align: center; */
     width: 80px;
     cursor: pointer;
 }

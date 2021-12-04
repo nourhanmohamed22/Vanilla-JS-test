@@ -3,14 +3,6 @@ var title = "";
 var yesBtn = "";
 var noBtn = "";
 var wrapper = "";
-function showButtonMsg(msg) {
-    var message = msg.getAttribute("data-message");
-    // alert("The " + animal.innerHTML + " is a " + animalType + ".");
-}
-
-window.onload = function () {
-
-}
 
 document.addEventListener("click", function () {
     wrapper = document.getElementById('wrapper');
