@@ -1,0 +1,104 @@
+
+
+
+.buttons{
+    text-align: center; 
+    position: fixed;  
+}
+
+
+.blue {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .blue:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  .black {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .black:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  #wrapper{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    display:none;
+  }
+
+  #popup{
+    position:fixed;
+    top:20%;
+    left:40%;
+    margin:100px auto;
+    width:200px;
+    height:150px;
+    font-family:verdana;
+    font-size:13px;
+    background-color: white;
+    text-align:center;
+    padding:80px;
+    border:2px solid grey;
+    -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+    /* z-index:100000000000000000; */
+  }
+
+  #popup button {    
+    background-color: white;
+    position:relative;
+margin-top:120px;  
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    padding: 10px;
+    /* text-align: center; */
+    width: 80px;
+    cursor: pointer;
+}
+
+#popup button:hover 
+{
+    background-color: #ddd;
+}
+
